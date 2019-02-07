@@ -21,7 +21,7 @@ to the each leaf.
 Our algorithm start from the node zero (school) and try each possible path that respect the condition given
 on the exercise text:<br />
 
-![example_1](https://github.com/Gabriele1606/Foundations-of-Operations-Research/blob/master/figure_1.png)
+<img src="https://github.com/Gabriele1606/Foundations-of-Operations-Research/blob/master/figure_1.png" width="45%">
 
 so the condition is dij+djk>ALPHA*dik <br />
 
@@ -35,7 +35,7 @@ path taken and in this way we respect the rule given during the description of t
 merge between them, they cannot divide again), this help us to decrease number of comparison in future
 steps. We repeat this process until we cover all nodes of the given graph.
 
-![example_1](https://github.com/Gabriele1606/Foundations-of-Operations-Research/blob/master/figure_2.png)
+<img src="https://github.com/Gabriele1606/Foundations-of-Operations-Research/blob/master/figure_2.png" width="60%">
 
 ### Minimization of dangerous value about chosen path
 The algorithm that we applied to minimize the dangerous in the graph works by choosing every time, from
