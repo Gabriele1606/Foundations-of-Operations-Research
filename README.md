@@ -21,7 +21,7 @@ to the each leaf.
 Our algorithm start from the node zero (school) and try each possible path that respect the condition given
 on the exercise text:<br />
 
-![example_1](https://github.com/Gabriele1606/Foundations-of-Operations-Research/blob/master/figure_1.png | width=50)
+![example_1](https://github.com/Gabriele1606/Foundations-of-Operations-Research/blob/master/figure_1.png)
 
 so the condition is dij+djk>ALPHA*dik <br />
 
@@ -51,3 +51,31 @@ TRESHOLD is a parameter that is proportional with the number of nodes of the gra
 value, and permit to our code to terminate until 1 hour from the start of program execution. In this way we
 found a feasible solutions related to the value of this parameter. For this delivery we chosen a better
 compromise between time and solution.
+
+## Executing the solver
+It’s possible to run in cmd line jar file, by typing:
+```
+pedibus.jar <pathToDatFile>
+```
+example:
+```
+pedibus.jar C:\pedibus_10.dat
+```
+ Otherwise you can also use the .exe application by typing in the command line:
+ ```
+pedibus.exe <pathToDatFile>
+```
+example:
+```
+pedibus.exe C:\pedibus_10.dat
+```
+
+### Just to save time
+It’s possible to run `start.bat` that will execute all the test instances.<br />
+It’s possible to run `start_then_checker.bat` that will execute all test instances, and then run the checker with the related solution (checker, solution and exe must be in the same directory).<br />
+Solution will be saved with the same filename of the dat file, with extension `.sol` in the same directory.
+Will be saved also a log, that just print start time and end time.
+
+
+
+ 
