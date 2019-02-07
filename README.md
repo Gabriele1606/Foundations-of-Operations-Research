@@ -21,7 +21,7 @@ to the each leaf.
 Our algorithm start from the node zero (school) and try each possible path that respect the condition given
 on the exercise text:<br />
 
-![example_1](https://github.com/Gabriele1606/Foundations-of-Operations-Research/blob/master/figure_1.png)
+![example_1](https://github.com/Gabriele1606/Foundations-of-Operations-Research/blob/master/figure_1.png | width=50)
 
 so the condition is dij+djk>ALPHA*dik <br />
 
