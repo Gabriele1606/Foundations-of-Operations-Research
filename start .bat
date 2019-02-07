@@ -1,0 +1,11 @@
+"%~dp0\pedibus.exe" "%~dp0\pedibus_10.dat"
+"%~dp0\pedibus.exe" "%~dp0\pedibus_20.dat"
+"%~dp0\pedibus.exe" "%~dp0\pedibus_30.dat"
+"%~dp0\pedibus.exe" "%~dp0\pedibus_50.dat"
+"%~dp0\pedibus.exe" "%~dp0\pedibus_80.dat"
+"%~dp0\pedibus.exe" "%~dp0\pedibus_100.dat"
+"%~dp0\pedibus.exe" "%~dp0\pedibus_150.dat"
+"%~dp0\pedibus.exe" "%~dp0\pedibus_200.dat"
+"%~dp0\pedibus.exe" "%~dp0\pedibus_250.dat"
+"%~dp0\pedibus.exe" "%~dp0\pedibus_300.dat"
+pause
